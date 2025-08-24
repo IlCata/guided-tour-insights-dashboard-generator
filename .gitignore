@@ -1,0 +1,44 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+env/
+ENV/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# macOS system files
+.DS_Store
+
+# CSV and other data files
+*.csv
+
+# Jupyter exports
+*.nbconvert.ipynb
+*.nb.html
+*.nb.json
+
+# Environment files
+.env
+.env.*
+
+# VS Code settings
+.vscode/
+
+# Build/packaging
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Test output
+htmlcov/
+.tox/
+.nox/
+.coverage
+.cache/
+.pytest_cache/
+coverage.xml
+nosetests.xml
